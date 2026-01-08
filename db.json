@@ -849,6 +849,7 @@
         3,
         4
       ],
+      "cartItems": [],
       "address": {
         "street": "123 Main St",
         "city": "New York",
@@ -869,6 +870,7 @@
         2,
         21
       ],
+      "cartItems": [],
       "address": {
         "street": "123 Main St",
         "city": "New York",
@@ -891,6 +893,7 @@
         4,
         5
       ],
+      "cartItems": [],
       "address": {
         "street": "123 Broadway Ave",
         "city": "New York",
@@ -909,6 +912,7 @@
       "role": "customer",
       "phone": "5559876543",
       "favorites": [],
+      "cartItems": [],
       "address": {
         "street": "789 Pine Rd",
         "city": "Chicago",
@@ -937,19 +941,27 @@
         3,
         4,
         1
-      ]
+      ],
+      "cartItems": []
     },
     {
       "firstName": "Amrit",
       "lastName": "Biswal",
-      "email": "amrit.k.biswal@gmail.com",
-      "password": "Password123",
+      "email": "amrit@example.com",
+      "password": "amrit123",
       "phone": "+4917655385651",
-      "address": null,
+      "address": {
+        "street": "Munchner str. 3",
+        "city": "Munich",
+        "state": "Bavaria",
+        "zipCode": "82008",
+        "country": "Germany"
+      },
       "role": "customer",
-      "favorites": [ 1, 3],
+      "favorites": [],
       "createdAt": "2026-01-06T16:46:24.435Z",
-      "id": 6
+      "id": 6,
+      "cartItems": []
     }
   ],
   "products": [
@@ -2283,6 +2295,111 @@
       "trackingNumber": null,
       "createdAt": "2025-01-06T18:00:00.000Z",
       "updatedAt": "2025-01-06T18:00:00.000Z"
+    },
+    {
+      "userId": 6,
+      "customerName": "Amrit Biswal",
+      "email": "amrit.k.biswal@gmail.com",
+      "items": [
+        {
+          "productId": "1-US 7-Black/White",
+          "name": "Nike Air Max 270",
+          "price": 150,
+          "size": "US 7",
+          "color": "Black/White",
+          "quantity": 5,
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600"
+        }
+      ],
+      "subtotal": 750,
+      "shipping": 0,
+      "tax": 75,
+      "total": 825,
+      "shippingAddress": {
+        "street": "Munchner Str. 3",
+        "city": "Munich",
+        "state": "",
+        "zipCode": "82008",
+        "country": "Germany"
+      },
+      "paymentMethod": "credit_card",
+      "paymentStatus": "pending",
+      "orderNumber": "ORD-2026-0006",
+      "status": "pending",
+      "trackingNumber": "PVJKA5Y7CZKOMHQNHV",
+      "createdAt": "2026-01-08T11:46:03.698Z",
+      "updatedAt": "2026-01-08T11:46:03.699Z",
+      "id": 6
+    },
+    {
+      "userId": 6,
+      "customerName": "Amrit Biswal",
+      "email": "amrit.k.biswal@gmail.com",
+      "items": [
+        {
+          "productId": "2-US 9-Core Black",
+          "name": "Adidas Ultraboost 22",
+          "price": 190,
+          "size": "US 9",
+          "color": "Core Black",
+          "quantity": 8,
+          "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600"
+        }
+      ],
+      "subtotal": 1520,
+      "shipping": 0,
+      "tax": 152,
+      "total": 1672,
+      "shippingAddress": {
+        "street": "Munchner str. 3",
+        "city": "Munich",
+        "state": "",
+        "zipCode": "82008",
+        "country": "Germany"
+      },
+      "paymentMethod": "credit_card",
+      "paymentStatus": "pending",
+      "orderNumber": "ORD-2026-0007",
+      "status": "pending",
+      "trackingNumber": "VL3R4N0PQWS4FKXP8Q",
+      "createdAt": "2026-01-08T11:46:51.010Z",
+      "updatedAt": "2026-01-08T11:46:51.010Z",
+      "id": 7
+    },
+    {
+      "userId": 6,
+      "customerName": "Amrit Biswal",
+      "email": "amrit@example.com",
+      "items": [
+        {
+          "productId": "1-US 7-Black/White",
+          "name": "Nike Air Max 270",
+          "price": 150,
+          "size": "US 7",
+          "color": "Black/White",
+          "quantity": 3,
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600"
+        }
+      ],
+      "subtotal": 450,
+      "shipping": 0,
+      "tax": 45,
+      "total": 495,
+      "shippingAddress": {
+        "street": "Munchner str. 3",
+        "city": "Munich",
+        "state": "",
+        "zipCode": "82008",
+        "country": "Germany"
+      },
+      "paymentMethod": "credit_card",
+      "paymentStatus": "pending",
+      "orderNumber": "ORD-2026-0008",
+      "status": "pending",
+      "trackingNumber": "V4E27MOKXFKG8AGX20",
+      "createdAt": "2026-01-08T15:45:46.453Z",
+      "updatedAt": "2026-01-08T15:45:46.453Z",
+      "id": 8
     }
   ],
   "favorites": [
